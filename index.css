@@ -139,13 +139,13 @@ body {
 }
 .picture1 {
   display: flex;
-  margin-top: 9rem;
-  margin-left: 15rem;
+  margin-top: 10rem;
+  margin-left: 55rem;
 }
 .picture2 {
   display: flex;
   margin-top: 7rem;
-  margin-left: 15rem;
+  margin-left: 55rem;
   margin-bottom: -5rem;
 }
 
@@ -161,14 +161,14 @@ nav a {
 }
 ul {
   margin: 0 auto;
-  width: 50%;
+  width: 23%;
   display: flex;
   justify-content: space-between;
 }
 nav ul {
   position: absolute;
-  top: 135px;
-  right: 200px;
+  top: 8.4375rem;
+  right: 56rem;
 }
 nav li {
   margin-right: 40px;
@@ -275,4 +275,91 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+.row {
+  display: flex;
+  box-orient: horizontal;
+  flex-direction: row;
+  justify-content: center;
+  box-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.strat {
+  margin-left: 1rem;
+}
+.button1 {
+  margin-left: -0rem;
+  width: 25%;
+  padding: 1%;
+  border-radius: 12rem;
+}
+.button2 {
+  margin-right: -0rem;
+  width: 25%;
+  padding: 1%;
+  border-radius: 12rem;
+}
+.how {
+  position: absolute;
+  top: 52.2rem;
+  right: 57rem;
+}
+.who {
+  position: absolute;
+  top: 52.4rem;
+  left: 55.5rem;
+}
+.left {
+  position: absolute;
+  top: 60rem;
+  right: 57rem;
+}
+.where {
+  position: absolute;
+  top: 79rem;
+  left: 55.5rem;
+}
+.button3 {
+  margin-right: -0rem;
+  width: 25%;
+  padding: 1%;
+  border-radius: 12rem;
+}
+.button2 {
+  margin-right: -0rem;
+
+  width: 25%;
+  padding: 1%;
+  border-radius: 12rem;
+}
+.why {
+  position: absolute;
+  top: 79rem;
+  right: 57rem;
+}
+.button4 {
+  margin-right: -0rem;
+  width: 25%;
+  padding: 1%;
+  border-radius: 12rem;
+}
+.lastparagraph {
+  position: absolute;
+  top: 90rem;
+  left: 55.5rem;
+}
+.footer {
+  display: flex;
+  position: relative;
+  bottom: -20rem;
+  left: 35%;
+  background: black;
+  text-align: center;
+  color: #ffffff;
+  justify-content: space-between;
+  font-size: 14px;
+  width: 30%;
 }
