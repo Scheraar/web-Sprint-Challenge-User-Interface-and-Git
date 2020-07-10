@@ -1,0 +1,365 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+.picture1 {
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 55rem;
+}
+.picture2 {
+  display: flex;
+  margin-top: 7rem;
+  margin-left: 55rem;
+  margin-bottom: -5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+ul {
+  margin: 0 auto;
+  width: 23%;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  position: absolute;
+  top: 8.4375rem;
+  right: 56rem;
+}
+nav li {
+  margin-right: 40px;
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+}
+
+a {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  line-height: 1.4;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.top-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.top-content .text-container {
+  width: 48%;
+  padding: 0 1%;
+  padding-bottom: 20px;
+}
+
+.middle-content {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.middle-content h2 {
+  padding: 0 2%;
+  margin-bottom: 0;
+}
+
+.middle-content .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.middle-content .boxes .box {
+  width: 12.5%;
+  height: 100px;
+  background: black;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-content {
+  display: flex;
+  margin: 0 2% 20px;
+  justify-content: space-around;
+}
+
+.bottom-content .text-container {
+  padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+  padding-right: 0;
+}
+
+footer {
+  width: 100%;
+  background: black;
+}
+
+footer nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  box-orient: horizontal;
+  flex-direction: row;
+  justify-content: center;
+  box-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.strat {
+  margin-left: 1rem;
+}
+.button1 {
+  margin-left: -0rem;
+  width: 25%;
+  padding: 1%;
+  border-radius: 12rem;
+}
+.button2 {
+  margin-right: -0rem;
+  width: 25%;
+  padding: 1%;
+  border-radius: 12rem;
+}
+.how {
+  position: absolute;
+  top: 52.2rem;
+  right: 57rem;
+}
+.who {
+  position: absolute;
+  top: 52.4rem;
+  left: 55.5rem;
+}
+.left {
+  position: absolute;
+  top: 60rem;
+  right: 57rem;
+}
+.where {
+  position: absolute;
+  top: 79rem;
+  left: 55.5rem;
+}
+.button3 {
+  margin-right: -0rem;
+  width: 25%;
+  padding: 1%;
+  border-radius: 12rem;
+}
+.button2 {
+  margin-right: -0rem;
+
+  width: 25%;
+  padding: 1%;
+  border-radius: 12rem;
+}
+.why {
+  position: absolute;
+  top: 79rem;
+  right: 57rem;
+}
+.button4 {
+  margin-right: -0rem;
+  width: 25%;
+  padding: 1%;
+  border-radius: 12rem;
+}
+.lastparagraph {
+  position: absolute;
+  top: 90rem;
+  left: 55.5rem;
+}
+.footer {
+  display: flex;
+  position: relative;
+  bottom: -20rem;
+  left: 35%;
+  background: black;
+  text-align: center;
+  color: #ffffff;
+  justify-content: space-between;
+  font-size: 14px;
+  width: 30%;
+}
